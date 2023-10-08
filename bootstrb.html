@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Merriweather+Sans:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Merriweather+Sans:ital,wght@1,300;1,400&family=Red+Hat+Display:ital,wght@0,300;1,300&display=swap');
+
+ 
+       *{margin: 0;
+	     padding: 0;
+	     box-sizing: border-box;}
+        h1{font-family: 'Fuggles', cursive;
+          font-family: 'Merriweather Sans', sans-serif;}
+
+        h3{font-family: 'Fuggles', cursive;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Red Hat Display', sans-serif;}
+        .div1{height: 643px;
+             width: 100%;
+            margin-top: 0%;
+            margin-left: 0%;
+            color: white;
+        background-color:rgb(51, 89, 133); 
+         font-family: sans-serif;
+        }
+
+        .d2{text-align: right;
+            display: inline;} 
+
+        .d2 a{color: inherit;
+        display: inline;
+        text-decoration: none;
+        margin: 15px;} 
+
+        
+        hr{width: 150px;
+	       height: 2px;
+	       background-color: #2196F3;
+           border: 0;
+	       margin-bottom: 80px;}
+
+        img{height: 300px;
+            display: inline;
+            justify-content: center;
+           align-items: center;
+           padding: 10px;}  
+           
+        p{font-size: 20px;}   
+
+            
+        .item {
+            display: inline-block;
+            text-align: center;
+            width: 33%;
+            padding: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="div1">
+        <div style="display: inline-block;">
+            <h2 style="color: white; display: inline-block; margin: 45px;">Website Logo</h2>
+        </div>
+        <div class="d2" style="text-align: right;" >
+            <a href="#">Home</a>
+		    <a href="#">Products</a>
+		    <a href="#">About</a>
+		    <a href="#">Contacts</a>
+        </div>
+        <div style="text-align: center;margin: 25px;">
+            <h1 style="margin-top: 100px;font-size: 60px;">Responsive Flexbox Template</h1>
+		    <h3 style="margin: 25px;font-size: 30px;">A freebie by Tutorialzine.</h3>
+            <button style="background-color: rgb(38, 126, 177);padding-left:40px; padding-top:20px;padding-right:40px ;padding-bottom: 20px ;border: none;border-radius: 4px;">
+                <a style="text-decoration: none; color: white;font-size: 28px;" href="http://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox/" class="btn">Download it Here</a></button>
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <h1 style="margin-top: 70px;margin-bottom: 40px;color:rgb(21, 54, 92) ;">Some Of Our Work</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi </p>
+
+        <p>vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+        <br>
+        <hr style="text-align: center;">
+    </div>
+
+    <div style="margin: 90px;">
+        <div   >
+            <img src="p1.jpg" alt="#" style="width: 450px;">
+            <img src="p2.jpg" alt="#" style="width: 700px;">
+        </div>
+        <div  style="justify-content: center;">
+            <img src="p3.jpg" alt="#" style="width: 700px;">
+            <img src="p4.jpg" alt="#" style="width: 450px;">
+    </div>
+
+    <div style="background-color:rgb(253, 251, 251);height: 300px;width: 100%; margin-top: 50px;text-align: center;">
+        <h1 style="text-align: center;padding: 100px;padding-bottom: 25px;">Features And Services</h1>
+        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi </p>
+
+        <p>vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+        <hr>
+        <div >
+            <div class="item">
+                <h1  style="font-size:20px ;">Photography</h1>
+                <p></p><br>
+                <p style="font-size:19px ;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+            </div>
+
+            <div class="item">
+            <h1 style="font-size:20px ;">Web Development</h1>
+            <p></p><br>
+            <p style="flex-wrap: wrap;font-size:19px ;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>        
+            </div>
+
+            <div class="item">
+            <h1 style="font-size:20px ;font-size:19px ;">Content Editing</h1>
+            <p></p><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>        
+            </div>
+        </div>
+        <div style="text-align: center; margin: 90px;">
+            <h1 >Join Our Newsletter</h1>
+            <p></p><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. </p>
+                <p> Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+                <p></p><br>
+                <p></p><br>
+            <form action="">
+                <input type="email" placeholder="<EMAIL>"  style="width: 500px;height: 52px;">
+                    <button style="background-color: #2196F3;color: white;width: 200px;height: 50px; margin: 25px;border: none;font-size: larger;">Subscribe Now</button>
+                
+            </form>
+        </div>
+        <div style="background-color: gray; margin: 50px;padding: 100px;width: 100%;margin-left: 0px;">
+           <p style="text-align: center; font-size: medium;color: white;">MADE BY TUTORIALZINE. IMAGES COURTESY TO UNSPLASH.</p>
+
+            <p style="text-align: center; font-size: medium;color: white;"> ATTRIBUTION REQUIRED. YOU CAN REMOVE THIS FOOTER.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
